@@ -31,11 +31,12 @@ header{
     height: 150px;
     padding: 20px 10px 0px 0px;
     margin: 0;
-    color: white;
+    color: var(--cor0);
     background-image: linear-gradient(to top, #1a5c37, #2fa866, #3ddc84);
 }
 
 header > h1 {
+    color: white;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.432);
     margin: 0;
     font-family: var(--fonte-destaque);
@@ -43,6 +44,7 @@ header > h1 {
 }
 
 header > p {
+    color: white;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.432);
     margin: 8px 10px;
     font-family: var(--fonte-padrao);
